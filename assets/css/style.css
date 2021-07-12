@@ -17,7 +17,7 @@ a {
   color: #0880e8;
 }
 
-.row{
+.row-card{
   --bs-gutter-x: 0rem;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.315);
 }
@@ -1712,7 +1712,7 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #f6b024;
+  color: var(--verde-agua);
 }
 
 .blog .entry .entry-meta {
@@ -1821,7 +1821,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #f6b024;
+  color: var(--verde-agua);
 }
 
 .blog .entry .entry-footer .cats {
@@ -1930,7 +1930,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #f6b024;
+  color: var(--verde-agua);
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -1976,7 +1976,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #fad386;
+  border-color: var(--verde-agua);
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1987,7 +1987,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #fad386;
+  border-color: var(--verde-agua);
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -2030,7 +2030,7 @@ section {
 }
 
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #f6b024;
+  background: var(--verde-agua);
 }
 
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
@@ -2080,7 +2080,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #f6b024;
+  background: var(--verde-agua);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2190,7 +2190,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: var(--azul);
+  background: #06739eb9;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
