@@ -172,6 +172,22 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.btn-login{
+  padding: 5px 15px !important;
+  border: 2px solid var(--azul-mar);
+  background-color: var(--azul-mar);
+  color: #fff !important;
+  border-radius: 50px;
+}
+
+.btn-login:hover{
+  padding: 5px 15px !important;
+  border: 2px solid var(--azul-mar);
+  background-color: #fff;
+  color: var(--azul-mar) !important;
+  border-radius: 50px;
+}
+
 .navbar > ul > li {
   position: relative;
   white-space: nowrap;
@@ -467,12 +483,28 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid var(--verde-agua);
+  
 }
 
 #hero .btn-get-started:hover {
   background: var(--verde-agua);
   color: #fff;
   text-decoration: none;
+}
+
+#hero .btn-get{
+font-size: 34px;
+line-height: 24px;
+letter-spacing: 24px;
+color: var(--verde-agua);
+animation: get-get 1.2s linear infinite;
+}
+@keyframes get-get {
+  0% { opacity: 1; }
+  25% { opacity: 0.8; }
+  50% { opacity: 0.5; }
+  75% { opacity: 0.25; }
+  100% { opacity: 0; }
 }
 
 @media (min-width: 1024px) {
@@ -486,7 +518,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px), (max-height: 700px) {
   #hero {
-    height: 120vh;
+    height: 100vh;
     padding: 100px 0;
   }
   #hero h2 {
